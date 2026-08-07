@@ -16,6 +16,18 @@ A hands-on capstone project exploring AI-assisted software development workflows
 - **Git** — version control and collaboration
 - **Cursor IDE** — AI-assisted development environment
 
+## AI-Assisted Development Workflow
+
+This capstone uses Cursor IDE as a development partner, not a code generator. The workflow follows these practices:
+
+1. **Define guidelines first** — Project conventions live in `CLAUDE.md` so the AI assistant follows consistent language, commit, and code-quality rules.
+2. **Plan before implementing** — Important changes are explained and agreed on before code is written or modified.
+3. **Keep scope focused** — Prompts target specific tasks; unrelated files are left unchanged to preserve reviewability.
+4. **Review all AI output** — Generated code is read, tested, and refined before it is committed.
+5. **Use Conventional Commits** — Commit messages (e.g. `feat:`, `fix:`, `docs:`) document what changed and why.
+
+This approach keeps human judgment in the loop while using AI to speed up routine work and explore alternatives.
+
 ## Setup Instructions
 
 ### Prerequisites
