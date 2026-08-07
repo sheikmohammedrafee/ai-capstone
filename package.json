@@ -1,0 +1,12 @@
+{
+  "name": "ai-capstone",
+  "version": "1.0.0",
+  "description": "A small Node.js calculator CLI for an AI-assisted development capstone",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
